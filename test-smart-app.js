@@ -68,5 +68,7 @@ function defaultPatient() {
   };
 }
 
-function displayData() {
+function displayData(p) {
+  var div = document.createElement('div');
+  div.innerText(p.toString());
 }
