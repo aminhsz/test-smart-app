@@ -71,4 +71,5 @@ function defaultPatient() {
 function displayData(p) {
   var div = document.createElement('div');
   div.innerText = p.fname + ' ' + p.lname + ', ' + p.gender + ', ' + p.birthdate;
+  document.body.appendChild(div);
 }
